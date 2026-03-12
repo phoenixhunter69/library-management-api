@@ -8,7 +8,7 @@ getBookById,
 updateBook,
 deleteBook,
 searchBooks
-} = require("../controllers/bookController");
+} = require("../controllers/bookcontroller");
 
 router.post("/books", addBook);
 
